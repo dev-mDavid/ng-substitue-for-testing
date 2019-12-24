@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { RealSource } from './real-source';
+// import { RealSource } from './real-source';
+import { MockSource } from './mock-source';
 
 @Component({
   selector: 'app-root',
@@ -11,6 +12,10 @@ export class AppComponent {
 
 
 }
+// console.log(
+//   RealSource.prototype.randomData()
+// );
+
 console.log(
-  RealSource.prototype.randomData()
+    MockSource.prototype.mockSourceData()
 );
