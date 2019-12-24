@@ -1,6 +1,6 @@
 export class Source {
 
-  mockSourceData() {
+  sourceData() {
     let mockData = [1, 1, 1]
     return mockData;
   }

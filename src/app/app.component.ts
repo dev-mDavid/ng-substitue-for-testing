@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
+import { CollectNumsModel } from './collect-nums-model';
 // import { RealSource } from './real-source';
-import { MockSource } from './mock-source';
+// import { MockSource } from './mock-source';
 
 @Component({
   selector: 'app-root',
@@ -16,6 +17,10 @@ export class AppComponent {
 //   RealSource.prototype.randomData()
 // );
 
+// console.log(
+//     MockSource.prototype.mockSourceData()
+// );
+
 console.log(
-    MockSource.prototype.mockSourceData()
+  CollectNumsModel.prototype.returnThis()
 );
