@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { CollectNumsModel } from './collect-nums-model';
+import { AverageOfNumsService } from './average-of-nums.service';
+// import { CollectNumsModel } from './collect-nums-model';
 // import { RealSource } from './real-source';
 // import { MockSource } from './mock-source';
 
@@ -10,8 +11,6 @@ import { CollectNumsModel } from './collect-nums-model';
 })
 export class AppComponent {
   title = 'ng-substitute-for-testing';
-
-
 }
 // console.log(
 //   RealSource.prototype.randomData()
@@ -22,5 +21,5 @@ export class AppComponent {
 // );
 
 console.log(
-  CollectNumsModel.prototype.returnThis()
+  AverageOfNumsService.prototype.getAverageOfData()
 );
