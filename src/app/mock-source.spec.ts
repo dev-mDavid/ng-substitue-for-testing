@@ -1,7 +1,7 @@
-import { MockSource } from './mock-source';
+import { Source } from './mock-source';
 
-describe('MockSource', () => {
+describe('Source', () => {
   it('should create an instance', () => {
-    expect(new MockSource()).toBeTruthy();
+    expect(new Source()).toBeTruthy();
   });
 });

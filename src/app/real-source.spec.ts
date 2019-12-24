@@ -1,7 +1,7 @@
-import { RealSource } from './real-source';
+import { Source } from './real-source';
 
-describe('RealSource', () => {
+describe('Source', () => {
   it('should create an instance', () => {
-    expect(new RealSource()).toBeTruthy();
+    expect(new Source()).toBeTruthy();
   });
 });

@@ -1,4 +1,4 @@
-export class RealSource {
+export class Source {
 
   randomData() {
     let randomNum1To10 = Math.floor(Math.random() * 10) 

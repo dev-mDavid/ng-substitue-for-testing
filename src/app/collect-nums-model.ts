@@ -1,2 +1,4 @@
 export class CollectNumsModel {
+
+  
 }
