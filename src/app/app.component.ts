@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { RealSource } from './real-source';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ng-substitute-for-testing';
+
+
 }
+console.log(
+  RealSource.prototype.randomData()
+);
